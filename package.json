@@ -1,0 +1,35 @@
+{
+  "name": "likert",
+  "version": "0.1.0",
+  "description": "Survey data flow engine.",
+  "main": "build/createSurvey.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make build",
+    "coveralls": "make test-cov && nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pori/likert.git"
+  },
+  "keywords": [
+    "survey",
+    "collection",
+    "data",
+    "decision"
+  ],
+  "author": "A. Hernandez <porialex@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pori/likert/issues"
+  },
+  "homepage": "https://github.com/pori/likert#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-shorthand-properties": "^6.8.0",
+    "boilermaker": "github:pori/boilermaker",
+    "coveralls": "^2.11.11"
+  }
+}
