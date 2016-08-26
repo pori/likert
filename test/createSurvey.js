@@ -1,5 +1,5 @@
 import test from 'ava';
-import createSurvey from  '../build/createSurvey';
+import createSurvey from  '../';
 
 const spec1 = {
   "How likely is it that you would recommend this company to a friend or colleague?": [

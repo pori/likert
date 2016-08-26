@@ -1,4 +1,4 @@
-export default function createSurvey (spec, data = {}, current = null) {
+function createSurvey (spec, data = {}, current = null) {
 
   const keys = Object.keys(spec)
 
@@ -37,3 +37,5 @@ export default function createSurvey (spec, data = {}, current = null) {
     answer
   }
 }
+
+module.exports = createSurvey
